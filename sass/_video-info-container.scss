@@ -1,0 +1,27 @@
+.video-info-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #909090;
+    font-size: 13px;
+
+
+    .reverse {
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+    }
+
+    .info-icons {
+        margin: 12px;
+        cursor: pointer;
+    }
+}
+
+.video-info {
+    flex: 1;
+
+}

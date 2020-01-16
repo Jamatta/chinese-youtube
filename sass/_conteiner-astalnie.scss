@@ -1,0 +1,89 @@
+.conteiner-astalnie {
+
+
+    .video-author-area {
+        display: flex;
+        padding: 16px 0px;
+
+        .vide-autor {
+            flex: 1;
+            display: flex;
+
+        }
+
+    }
+
+    .subscribe-button {
+        width: 105px;
+        height: 40px;
+        background-color: #cc0000;
+        border-radius: 2px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+
+
+        .sub {
+            font-size: 14px;
+        }
+    }
+
+    .autor-logo {
+        width: 48px;
+        height: 48px;
+        background-color: grey;
+
+        img.aut-logo {
+            width: 100%;
+        }
+    }
+
+    .autor-info {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0 16px;
+
+        p.aut-name {
+            font-size: 14px;
+            color: #0d0d0d;
+            margin: 0px;
+        }
+
+        p.aut-info {
+            font-size: 13px;
+            color: #606060;
+        }
+
+
+    }
+
+
+    .description {
+        display: flex;
+        flex-direction: column;
+        margin-left: 65px;
+
+        .descr {
+            max-width: 390px;
+        }
+
+        p.descrip {
+            font-size: 14px;
+            margin: 0;
+
+        }
+
+        .showmore-button {
+            color: #606060;
+            margin: 12px 0;
+            font-size: 12px;
+            max-width: 80px;
+            cursor: pointer;
+        }
+
+    }
+
+}

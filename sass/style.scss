@@ -1,0 +1,22 @@
+$theme_padding: 15px;
+
+@mixin flexAll {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@import 'theme';
+@import 'body';
+@import 'header';
+@import 'container';
+@import 'content-video';
+@import 'suggestion-video-area';
+@import 'content-description';
+@import 'full-video-content';
+@import 'video-area';
+@import 'video-info-container';
+@import 'conteiner-astalnie';
+@import 'description';
+@import 'comments-sort';
+@import 'comments-area';

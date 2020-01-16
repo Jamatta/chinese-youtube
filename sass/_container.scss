@@ -1,0 +1,16 @@
+
+.container {
+    width: 100%;
+    display: flex;
+    padding: $theme_padding;
+
+    .left-content{
+        flex: 1;
+        margin: 8px 16px 0px 0px;
+    }
+
+    .content2{
+        flex-basis: 500px;
+
+    }
+}

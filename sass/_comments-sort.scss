@@ -1,0 +1,22 @@
+.comments-sort {
+    display: flex;
+    padding: 16px 0px;
+    align-items: center;
+
+    .material-icons {
+        margin: 0px 8px;
+        color: #606060;
+    }
+
+    .comm-sort {
+        padding: 0px 30px;
+        display: flex;
+        align-items: center;
+
+    }
+
+    p.sort {
+        font-size: 14px;
+        color: #606060;
+    }
+}
